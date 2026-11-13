@@ -1,0 +1,38 @@
+esta carpeta es para ejercicios de grafos
+
+Un grafo es un conjunto de nodos (vértices) conectados entre sí por aristas.
+- No hay un "primero" ni un "padre": cualquier nodo se puede conectar con otro.
+- Ejemplos: redes sociales (personas y amistades), mapas (ciudades y carreteras).
+
+Dos formas sencillas de guardar un grafo:
+1) Lista de adyacencia: cada nodo guarda la lista de sus vecinos.
+     Ana   -> [Luis, Carlos]
+     Luis  -> [Ana, Maria]
+2) Matriz de adyacencia: una tabla donde [fila][columna] dice si hay conexión.
+           Med  Bog  Cal
+     Med [  0  415   0 ]
+     Bog [ 415   0  460 ]
+     Cal [  0  460   0 ]
+
+Ejercicio 1 - RedSocial.java
+Diseña un programa que guarde una red de amigos con lista de adyacencia,
+muestre los amigos de una persona y sugiera "personas que quizá conozcas"
+(amigos de sus amigos que todavía no son sus amigos).
+Ejemplo:
+
+Entrada: Ana
+Salida:  Amigos de Ana: [Luis, Carlos]
+         Personas que quizá conozcas: [Maria]
+
+Ejercicio 2 - MapaCiudades.java
+Diseña un programa que guarde un mapa de ciudades con matriz de adyacencia
+(distancias en km). El usuario elige origen y destino y el programa dice si hay
+ruta directa; si no la hay, busca rutas pasando por una ciudad intermedia.
+Ejemplo:
+
+Entrada: Medellin -> Cali
+Salida:  No hay ruta directa
+         Puedes ir por Bogota: 875 km
+         Puedes ir por Pereira: 430 km
+
+Nota: las distancias son aproximadas, solo para el ejercicio.
