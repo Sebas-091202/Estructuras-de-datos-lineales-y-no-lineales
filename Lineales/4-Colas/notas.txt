@@ -1,0 +1,31 @@
+esta carpeta es para ejercicios de colas (queue)
+
+Una cola funciona como la fila de un banco:
+- Primero en entrar, primero en salir (FIFO: First In, First Out).
+- add(dato) -> el dato entra al FINAL de la cola
+- poll()    -> saca el dato del INICIO de la cola
+- peek()    -> mira el primero sin sacarlo
+- isEmpty() -> dice si la cola está vacía
+
+Diferencia con la pila:
+  Pila -> sale el ÚLTIMO que entró
+  Cola -> sale el PRIMERO que entró
+
+Ejercicio 1 - TurnosBanco.java
+Diseña un programa que maneje los turnos de un banco.
+Los clientes llegan a la fila y se atienden en orden de llegada.
+Ejemplo:
+
+Llegan: Ana, Luis, Carlos
+Atender → Atendiendo a: Ana
+Fila:     [Luis, Carlos]
+
+Ejercicio 2 - ColaImpresion.java
+Diseña un programa que simule la cola de una impresora.
+El usuario envía varios documentos y se imprimen en el mismo orden.
+Ejemplo:
+
+Entrada: tarea.docx, foto.png, informe.pdf
+Salida:  1. Imprimiendo: tarea.docx
+         2. Imprimiendo: foto.png
+         3. Imprimiendo: informe.pdf
