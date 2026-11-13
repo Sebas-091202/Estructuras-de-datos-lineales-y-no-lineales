@@ -1,0 +1,38 @@
+esta carpeta es para ejercicios de árboles
+
+Un árbol organiza los datos como una jerarquía de padres e hijos.
+- Raíz: el nodo de arriba (no tiene padre).
+- Hijos: los nodos que cuelgan de otro nodo.
+- Hoja: un nodo que no tiene hijos.
+- Ejemplos de la vida real: carpetas del computador, menús, organigramas.
+
+          Disco C:            <- raíz
+         /        \
+   Usuarios     Programas     <- hijos
+    /    \
+ Docs  Descargas              <- hojas
+
+Árbol binario de búsqueda (ABB): cada nodo tiene máximo 2 hijos.
+- Los números menores van a la IZQUIERDA.
+- Los números mayores van a la DERECHA.
+
+Ejercicio 1 - ArbolCarpetas.java
+Diseña un programa que arme el árbol de carpetas de un computador,
+lo muestre con sangría según el nivel y cuente cuántas carpetas hay.
+Ejemplo de salida:
+
+|-- Disco C:
+    |-- Usuarios
+        |-- Documentos
+        |-- Descargas
+    |-- Archivos de programa
+Total de carpetas: 5
+
+Ejercicio 2 - ArbolNumeros.java
+Diseña un programa que inserte números en un árbol binario de búsqueda,
+los muestre ordenados (recorrido inorden) y busque un número.
+Ejemplo:
+
+Entrada: 50, 30, 70, 20, 40
+Salida:  Ordenados: 20 30 40 50 70
+Buscar 40 → Camino: 50 30 40 -> encontrado
