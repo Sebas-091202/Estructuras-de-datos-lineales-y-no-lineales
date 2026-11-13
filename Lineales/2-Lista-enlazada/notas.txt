@@ -1,0 +1,27 @@
+esta carpeta es para ejercicios de listas enlazadas
+
+Una lista enlazada es una cadena de nodos.
+- Cada nodo guarda un dato y una referencia (flecha) al siguiente nodo.
+- El primer nodo se llama "cabeza". El último apunta a null (nada).
+- A diferencia del arreglo, puede crecer sin tamaño fijo.
+
+   [Pan] -> [Leche] -> [Huevos] -> null
+
+Ejercicio 1 - ListaCompras.java
+Diseña un programa que arme una lista de compras con una lista enlazada.
+Cada producto nuevo se agrega al final. Se termina escribiendo "fin".
+Ejemplo:
+
+Entrada: Pan, Leche, Huevos, fin
+Salida:  Pan -> Leche -> Huevos -> null
+         Total de productos: 3
+
+Ejercicio 2 - ListaNumeros.java
+Diseña un programa que agregue 5 números al INICIO de una lista enlazada
+y luego elimine el número que diga el usuario.
+Ejemplo:
+
+Entrada: 10, 20, 30, 40, 50
+Lista:   50 -> 40 -> 30 -> 20 -> 10 -> null   (quedan al revés porque entran por el inicio)
+Eliminar: 30
+Salida:  50 -> 40 -> 20 -> 10 -> null
