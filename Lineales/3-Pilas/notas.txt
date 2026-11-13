@@ -1,0 +1,24 @@
+esta carpeta es para ejercicios de pilas (stack)
+
+Una pila funciona como una torre de platos:
+- Último en entrar, primero en salir (LIFO: Last In, First Out).
+- push(dato) -> pone un dato encima de la pila
+- pop()      -> saca el dato de encima
+- peek()     -> mira el de encima sin sacarlo
+- isEmpty()  -> dice si la pila está vacía
+
+Ejercicio 1 - InvertirPalabra.java
+Diseña un programa que invierta una palabra usando una pila
+y diga si es palíndromo (se lee igual al derecho y al revés).
+Ejemplo:
+
+Entrada: hola  → Salida: aloh  (No es palíndromo)
+Entrada: oso   → Salida: oso   (Es palíndromo)
+
+Ejercicio 2 - HistorialNavegador.java
+Diseña un programa que simule el botón "Atrás" de un navegador.
+Cada página visitada entra a la pila; al dar "Atrás" sale la última visitada.
+Ejemplo:
+
+Visitar: google.com, youtube.com, github.com
+Atrás  → sale github.com, la página actual es youtube.com
