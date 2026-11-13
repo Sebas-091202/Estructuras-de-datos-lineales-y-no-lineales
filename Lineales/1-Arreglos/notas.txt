@@ -1,0 +1,23 @@
+esta carpeta es para ejercicios de arreglos (arrays)
+
+Un arreglo guarda varios datos del mismo tipo, uno detrás de otro.
+- Tiene tamaño fijo: se define al crearlo y no cambia.
+- Cada dato se encuentra en una posición (índice) que empieza en 0.
+- Se puede leer cualquier posición directamente: arreglo[2]
+
+Ejercicio 1 - PromedioNotas.java
+Diseña un programa que guarde 5 notas en un arreglo y muestre el promedio,
+la nota más alta y la nota más baja.
+Ejemplo:
+
+Entrada: 3.5  4.0  2.8  5.0  4.2
+Salida:  Promedio: 3.9 | Más alta: 5.0 | Más baja: 2.8
+
+Ejercicio 2 - BuscarEnArreglo.java
+Diseña un programa que tenga un arreglo de frutas, muestre la fruta que está
+en una posición elegida por el usuario y luego busque una fruta por su nombre.
+Ejemplo:
+
+Entrada: posición 2      → Salida: Banano
+Entrada: buscar "Mango"  → Salida: Mango está en la posición 4
+Entrada: buscar "Kiwi"   → Salida: Kiwi no está en el arreglo
